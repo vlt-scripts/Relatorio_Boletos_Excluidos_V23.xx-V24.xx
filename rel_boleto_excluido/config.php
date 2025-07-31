@@ -1,7 +1,7 @@
 <?php
 
 // Conexão com o Banco de Dados
-$link = mysqli_connect("localhost", "root", "vertrigo", 'mkradius');
+$link = mysqli_connect("127.0.0.1", "root", "vertrigo", 'mkradius');
 
 // Verificar a conexão
 if (!$link) {
